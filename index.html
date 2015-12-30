@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>照片墙</title>
+	    <style type="text/css">
+       *{padding: 0; margin: 0;}
+       #content{margin: 30px auto; text-align: center; position: relative;height: 900px; width: 1200px;}
+       #content img{padding: 6px 6px 10px; position: absolute;
+       	    -webkit-transition:0.8s;
+       	    -moz-transition:0.8s;
+       	    transition:0.8s; 
+       	    box-shadow: 10px 10px 15px #ccc;
+       	     z-index: 1;
+             background:#fff;
+       	    }
+       #content img:hover{
+       	   -webkit-transform:rotate(0deg);
+       	   -moz-transform:rotate(0deg); 
+       	   transform:rotate(0deg);
+       	   -webkit-transform:scale(1.2);
+       	   -mozr-transform:scale(1.2);
+       	   transform:scale(1.2);
+       	   z-index: 2;
+       	   background:#fff;
+       	  }       	 	
+        .pic1{
+       	   top: 100px;
+       	   left: 180px;
+       	   width: 200px;
+       	   height: auto;   
+       	   transform:rotate(25deg);
+       	   -moz-transform:rotate(25deg);
+           -webkit-transform:rotate(25deg);    	  
+       	   }
+       	   .pic2{
+       	   top: 120px;
+       	   left: 720px;
+       	   width: 200px;
+       	   height: auto;
+       	   transform:rotate(-20deg);
+       	   -moz-transform:rotate(-20deg);
+           -webkit-transform:rotate(-20deg);
+       	   }
+       	   .pic4{
+       	   top: 80px;
+       	   left: 400px;
+       	   width: 350px;
+       	   height: auto;
+       	    transform:rotate(-5deg);
+       	   -moz-transform:rotate(-5deg);
+           -webkit-transform:rotate(-5deg);
+       	   }       	   
+       	   .pic3{
+       	   top: 370px;
+       	   left: 620px;
+       	   width: 220px;
+       	   height: auto;
+       	   transform:rotate(-20deg);
+       	   -moz-transform:rotate(-20deg);
+           -webkit-transform:rotate(-20deg);
+       	   }
+       	   .pic6{
+       	   top: 320px;
+       	   left: 400px;
+       	   width: 220px;
+       	   height: auto;
+       	   transform:rotate(20deg);
+       	   -moz-transform:rotate(20deg);
+           -webkit-transform:rotate(20deg);
+       	   }
+       	   .pic5{
+       	   top: 400px;
+       	   left: 180px;
+       	   width: 220px;
+       	   height: auto;
+       	   transform:rotate(-10deg);
+       	   -moz-transform:rotate(-10deg);
+           -webkit-transform:rotate(-10deg);} 
+       	   }
+    </style>
+</head>
+
+<body>
+	<div id="content">
+		<h1>我的照片墙</h1>
+		<div class="images">
+			<img class="pic1" src="http://b88.photo.store.qq.com/psb?/V11QSux91sfjX9/EyNO*Em3jHJfh6Ifh.AB84TkhJpcCIR.61JftSsLWN8!/b/dD1jezQ2RgAA&bo=PgHeAQAAAAABAMc!&rf=viewer_4">
+			
+			<img class="pic4" src="http://b88.photo.store.qq.com/psb?/V11QSux91sfjX9/r8*eEsZ96NZBmbs*L8LqH*Af.OBKe*xDS9n7V0nYVSM!/b/dJxgezQTRAAA&bo=4AFAAQAAAAABAIc!&rf=viewer_4">
+			<img class="pic2" src="http://b89.photo.store.qq.com/psb?/V11QSux91sfjX9/kXBq633nM2IvCfCyy0uapm4lRUvkF4wVwDTA0W2uSVM!/b/dCNnDzVRRwAA&bo=PgHfAQAAAAABAMY!&rf=viewer_4" title= "第二张图片">
+			
+			<img class="pic3" src="http://b86.photo.store.qq.com/psb?/V11QSux91sfjX9/m2zViGSlIU8hJsAqyJ.rCj9Uj3GDrgwXUUrpBL0iZLQ!/b/dKBLTTN7cwAA&bo=PgHeAQAAAAABAMc!&rf=viewer_4">
+			
+			<img class="pic6" src="http://b90.photo.store.qq.com/psb?/V11QSux91sfjX9/Po2wbq6bf.6jCNrr2myHHu9qpPfhMX72eXJ4ixJRvvE!/b/dIWGqTUMBQAA&bo=PgHeAQAAAAABAMc!&rf=viewer_4" title="看，我们是帅锅美女喔！！！">
+			<img class="pic5" src="http://b88.photo.store.qq.com/psb?/V11QSux91sfjX9/Gm5MiIJ46J0Gf.KP7wMzjmqasAJfRrVvx4tuMzk2UZM!/b/dObxfzSJRQAA&bo=PgHeAQAAAAABAMc!&rf=viewer_4">
+		</div>
+	</div>
+</body>
+</html>
