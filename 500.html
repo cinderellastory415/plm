@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>500页面</title>
+	<link href="css/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="s/jquery-1.6.4.min.js"></script>
+<link rel="stylesheet" href="common.css" style="text/css">
+<style type="text/css">
+ body{background:#F0D5E4;}
+
+.error{ width:768px; height:404px; background:url(images/icon3.jpg) no-repeat; position:absolute; top:200px; left:350px;}
+.error .text{border:0px #000 solid; height:40px; margin-top:300px; font-size:16px; font-family:"微软雅黑";font-weight:bolder;position:absolute;left:350px;}
+</style>
+<script type="text/ecmascript">
+   $(function(){
+	     var width=$(window).width();
+		 if(width>768){
+		    var divLeft=(width-768)/2;
+			divLeft=parseInt(divLeft);
+			$("div[class='error']").css("left",divLeft);
+		 }
+    });   
+</script>
+</head>
+
+<body>
+<div class="errorUp"></div>
+<div class="error">
+  <div class="text"><a href="/"><img src="images/btn.jpg" alt=""></a></div>
+</div>
+</body>
+</html>
